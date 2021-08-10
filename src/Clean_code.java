@@ -51,7 +51,7 @@ public class Clean_code
 
     public static void main(String args[])
     {
-        int givenNumberArray[] = {6000, 11, 445, 3, 330, 9999};
+        int givenNumberArray[] = {1000, 11, 445, 1, 330, 3000};
         int arrayLength = 6;
         GreatestSmallestElement gse_object = findGreatestSmallestElement(givenNumberArray, arrayLength);
         System.out.printf("\nSmallest Number in the array is %d", gse_object.smallNumber);
